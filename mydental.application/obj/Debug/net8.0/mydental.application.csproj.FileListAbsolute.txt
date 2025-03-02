@@ -1,0 +1,15 @@
+C:\Users\neil.joseph.tacatani\Documents\Microservices\dental-app-microservice\mydental.application\obj\Debug\net8.0\mydental.application.csproj.AssemblyReference.cache
+C:\Users\neil.joseph.tacatani\Documents\Microservices\dental-app-microservice\mydental.application\obj\Debug\net8.0\mydental.application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\neil.joseph.tacatani\Documents\Microservices\dental-app-microservice\mydental.application\obj\Debug\net8.0\mydental.application.AssemblyInfoInputs.cache
+C:\Users\neil.joseph.tacatani\Documents\Microservices\dental-app-microservice\mydental.application\obj\Debug\net8.0\mydental.application.AssemblyInfo.cs
+C:\Users\neil.joseph.tacatani\Documents\Microservices\dental-app-microservice\mydental.application\obj\Debug\net8.0\mydental.application.csproj.CoreCompileInputs.cache
+C:\Users\neil.joseph.tacatani\Documents\Microservices\dental-app-microservice\mydental.application\bin\Debug\net8.0\mydental.application.deps.json
+C:\Users\neil.joseph.tacatani\Documents\Microservices\dental-app-microservice\mydental.application\bin\Debug\net8.0\mydental.application.dll
+C:\Users\neil.joseph.tacatani\Documents\Microservices\dental-app-microservice\mydental.application\bin\Debug\net8.0\mydental.application.pdb
+C:\Users\neil.joseph.tacatani\Documents\Microservices\dental-app-microservice\mydental.application\bin\Debug\net8.0\mydental.domain.dll
+C:\Users\neil.joseph.tacatani\Documents\Microservices\dental-app-microservice\mydental.application\bin\Debug\net8.0\mydental.domain.pdb
+C:\Users\neil.joseph.tacatani\Documents\Microservices\dental-app-microservice\mydental.application\obj\Debug\net8.0\mydental.25E7DCF1.Up2Date
+C:\Users\neil.joseph.tacatani\Documents\Microservices\dental-app-microservice\mydental.application\obj\Debug\net8.0\mydental.application.dll
+C:\Users\neil.joseph.tacatani\Documents\Microservices\dental-app-microservice\mydental.application\obj\Debug\net8.0\refint\mydental.application.dll
+C:\Users\neil.joseph.tacatani\Documents\Microservices\dental-app-microservice\mydental.application\obj\Debug\net8.0\mydental.application.pdb
+C:\Users\neil.joseph.tacatani\Documents\Microservices\dental-app-microservice\mydental.application\obj\Debug\net8.0\ref\mydental.application.dll
