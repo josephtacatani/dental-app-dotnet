@@ -7,6 +7,7 @@ namespace mydental.infrastructure.Data
     public class MyDentalDbContext : DbContext
     {
         public DbSet<User> Users { get; set; }
+        public DbSet<ServiceList> ServiceLists { get; set; }
 
         public MyDentalDbContext(DbContextOptions<MyDentalDbContext> options)
             : base(options)
@@ -18,6 +19,7 @@ namespace mydental.infrastructure.Data
             base.OnModelCreating(modelBuilder);
 
             modelBuilder.ApplyConfiguration(new UserConfiguration());
+            modelBuilder.ApplyConfiguration(new ServiceListConfiguration());
         }
     }
 }

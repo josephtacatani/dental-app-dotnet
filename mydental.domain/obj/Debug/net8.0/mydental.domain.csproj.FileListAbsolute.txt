@@ -10,3 +10,4 @@ C:\Users\neil.joseph.tacatani\Documents\Microservices\dental-app-microservice\my
 C:\Users\neil.joseph.tacatani\Documents\Microservices\dental-app-microservice\mydental.domain\obj\Debug\net8.0\mydental.domain.pdb
 C:\Users\neil.joseph.tacatani\Documents\Microservices\dental-app-microservice\mydental.domain\obj\Debug\net8.0\ref\mydental.domain.dll
 C:\Users\neil.joseph.tacatani\Documents\Microservices\dental-app-microservice\mydental.domain\obj\Debug\net8.0\mydental.domain.csproj.AssemblyReference.cache
+C:\Users\neil.joseph.tacatani\Documents\Microservices\dental-app-microservice\mydental.domain\obj\Debug\net8.0\mydental.domain.sourcelink.json

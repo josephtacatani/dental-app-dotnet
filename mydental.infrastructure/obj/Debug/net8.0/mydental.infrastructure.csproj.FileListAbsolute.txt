@@ -17,3 +17,4 @@ C:\Users\neil.joseph.tacatani\Documents\Microservices\dental-app-microservice\my
 C:\Users\neil.joseph.tacatani\Documents\Microservices\dental-app-microservice\mydental.infrastructure\obj\Debug\net8.0\mydental.infrastructure.pdb
 C:\Users\neil.joseph.tacatani\Documents\Microservices\dental-app-microservice\mydental.infrastructure\obj\Debug\net8.0\mydental.infrastructure.genruntimeconfig.cache
 C:\Users\neil.joseph.tacatani\Documents\Microservices\dental-app-microservice\mydental.infrastructure\obj\Debug\net8.0\ref\mydental.infrastructure.dll
+C:\Users\neil.joseph.tacatani\Documents\Microservices\dental-app-microservice\mydental.infrastructure\obj\Debug\net8.0\mydental.infrastructure.sourcelink.json

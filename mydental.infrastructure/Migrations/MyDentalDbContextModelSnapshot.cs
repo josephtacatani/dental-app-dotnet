@@ -22,6 +22,43 @@ namespace mydental.infrastructure.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("mydental.domain.Entities.ServiceList", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Content")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("DATETIME2");
+
+                    b.Property<string>("Photo")
+                        .HasMaxLength(500)
+                        .HasColumnType("VARCHAR(500)");
+
+                    b.Property<string>("ServiceName")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("VARCHAR(255)");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("VARCHAR(255)");
+
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("DATETIME2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("ServiceLists");
+                });
+
             modelBuilder.Entity("mydental.domain.Entities.User", b =>
                 {
                     b.Property<int>("Id")

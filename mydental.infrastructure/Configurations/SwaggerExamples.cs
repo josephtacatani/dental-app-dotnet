@@ -81,5 +81,62 @@ namespace mydental.infrastructure.Configurations
             };
         }
 
+        /// <summary>
+        /// Example response when a service is successfully retrieved.
+        /// </summary>
+        public static OpenApiSchema ServiceSuccessExample()
+        {
+            return new OpenApiSchema
+            {
+                Type = "object",
+                Properties = new Dictionary<string, OpenApiSchema>
+                {
+                    ["statusCode"] = new OpenApiSchema { Type = "integer", Example = new OpenApiInteger(200) },
+                    ["message"] = new OpenApiSchema { Type = "string", Example = new OpenApiString("Service retrieved successfully.") },
+                    ["errorMessages"] = new OpenApiSchema
+                    {
+                        Type = "array",
+                        Items = new OpenApiSchema { Type = "string" },
+                        Example = new OpenApiArray()
+                    },
+                    ["data"] = new OpenApiSchema
+                    {
+                        Type = "object",
+                        Properties = new Dictionary<string, OpenApiSchema>
+                        {
+                            ["id"] = new OpenApiSchema { Type = "integer", Example = new OpenApiInteger(1) },
+                            ["serviceName"] = new OpenApiSchema { Type = "string", Example = new OpenApiString("Teeth Cleaning") },
+                            ["title"] = new OpenApiSchema { Type = "string", Example = new OpenApiString("Professional Teeth Cleaning") },
+                            ["content"] = new OpenApiSchema { Type = "string", Example = new OpenApiString("A comprehensive cleaning service for your teeth.") },
+                            ["photo"] = new OpenApiSchema { Type = "string", Example = new OpenApiString("https://example.com/images/cleaning.jpg") }
+                        }
+                    }
+                }
+            };
+        }
+
+        /// <summary>
+        /// Example response when a service is not found.
+        /// </summary>
+        public static OpenApiSchema ServiceNotFoundExample()
+        {
+            return new OpenApiSchema
+            {
+                Type = "object",
+                Properties = new Dictionary<string, OpenApiSchema>
+                {
+                    ["statusCode"] = new OpenApiSchema { Type = "integer", Example = new OpenApiInteger(404) },
+                    ["message"] = new OpenApiSchema { Type = "string", Example = new OpenApiString("No services found.") },
+                    ["errorMessages"] = new OpenApiSchema
+                    {
+                        Type = "array",
+                        Items = new OpenApiSchema { Type = "string" },
+                        Example = new OpenApiArray { new OpenApiString("No services found.") }
+                    },
+                    ["data"] = new OpenApiSchema { Type = "object", Nullable = true, Example = null }
+                }
+            };
+        }
+
     }
 }
